@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Time to Decimal
 // @namespace    http://www.studioillek.cz/
-// @version      0.1
+// @version      0.3
 // @description  Convert minutes to decimal for Redmine time entries.
 // @author       Petr Illek
 // @match        https://redmine.morpht.com/time_entries/*
