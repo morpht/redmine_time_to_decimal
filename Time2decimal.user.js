@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Time to Decimal
 // @namespace    http://www.studioillek.cz/
-// @version      0.3
+// @version      0.4
 // @description  Convert minutes to decimal for Redmine time entries.
 // @author       Petr Illek
 // @match        https://redmine.morpht.com/time_entries/*
@@ -22,8 +22,13 @@
 
         // Minutes field changes its value.
         $('#minutes').change(function() {
-            var timeToDecimal = $("#minutes").val()/60;
-            $("#decimaltime").html("Decimal time: " + (timeToDecimal.toFixed(2)));
+            timeToDecimal = ($("#minutes").val()/60).toFixed(2);
+            $("#decimaltime").html("<a href='' id='transfertime'>Decimal time</a>: " + (timeToDecimal));
+        });
+        // Click to easily transfer calculated time to Redmine field.
+        $(document).on("click","#transfertime", function(event) {
+            event.preventDefault();
+            $('#time_entry_hours').val(timeToDecimal);
         });
 
         // Change in Comment field.
