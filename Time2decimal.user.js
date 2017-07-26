@@ -1,11 +1,14 @@
 // ==UserScript==
-// @name         Time to Decimal
+// @name         Redmine Time to Decimal
 // @namespace    http://www.studioillek.cz/
-// @version      0.4
+// @version      0.5
 // @description  Convert minutes to decimal for Redmine time entries.
 // @author       Petr Illek
 // @match        https://redmine.morpht.com/time_entries/*
-// @require http://code.jquery.com/jquery-latest.js
+// @require      http://code.jquery.com/jquery-latest.js
+// @downloadURL  https://github.com/radimklaska/redmine_time_to_decimal/raw/master/Time2decimal.user.js
+// @updateURL    https://github.com/radimklaska/redmine_time_to_decimal/raw/master/Time2decimal.user.js
+// @grant        none
 // ==/UserScript==
 
 (function() {
