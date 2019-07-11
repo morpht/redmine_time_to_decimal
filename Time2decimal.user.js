@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Redmine Time to Decimal
-// @namespace    http://www.studioillek.cz/
-// @version      0.5
+// @namespace    https://morpht.com
+// @version      0.6
 // @description  Convert minutes to decimal for Redmine time entries.
-// @author       Petr Illek
+// @author       Originally developed by @petrillek, now adopted by Morpht.com
 // @match        https://redmine.morpht.com/time_entries/*
 // @require      http://code.jquery.com/jquery-latest.js
-// @downloadURL  https://github.com/radimklaska/redmine_time_to_decimal/raw/master/Time2decimal.user.js
-// @updateURL    https://github.com/radimklaska/redmine_time_to_decimal/raw/master/Time2decimal.user.js
+// @downloadURL  https://github.com/morpht/redmine_time_to_decimal/raw/master/Time2decimal.user.js
+// @updateURL    https://github.com/morpht/redmine_time_to_decimal/raw/master/Time2decimal.user.js
 // @grant        none
 // ==/UserScript==
 
